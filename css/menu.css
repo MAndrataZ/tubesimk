@@ -1,7 +1,27 @@
-nav {
-    background-color: blue;
-    border-radius: 30px;
+.containerHome{
+    display: flex;
+    background-color: rgb(149, 149, 243);
+    flex-direction: column;
 }
-nav  {
-    
+.judul .dashboard{
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 15px;
+}
+
+.profil{
+    display: flex;
+    height: 100px;
+    background-color: #00517e;
+    border-radius: 10px;
+    flex-direction: column;
+}
+.profil .nama{
+    font-size: 30px;
+}
+
+.report{
+    padding-top: 20px;
+    background-color: rgb(49, 42, 42);
 }
