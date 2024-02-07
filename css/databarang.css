@@ -1,0 +1,48 @@
+.main1{
+    display: flex;
+    background-color: #073b5578;
+    flex-direction: column;
+}
+
+.containerbarang{
+    display: flex;
+    flex-direction: column;
+}
+.judul{
+    padding-left: 30px;
+    padding-top: 30px;
+}
+
+.search{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.search1{
+    display: flex;
+    background-color: wheat;
+}
+
+.laporanbarang .table{
+    display: flex;
+    justify-content: space-around;
+}
+
+.input{
+    display: flex;
+    justify-content: space-around;
+}
+
+.inputBarang{
+    display: block;
+    background-color: #00517e;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.inputHarga{
+    display: block;
+    background-color: #00517e;
+    padding: 15px;
+    border-radius: 5px;
+}
