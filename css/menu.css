@@ -1,24 +1,48 @@
-.containerHome{
+.profileWrapper{
     display: flex;
-    background-color: rgb(149, 149, 243);
     flex-direction: column;
+    padding: 1rem;
 }
-.judul .dashboard{
+
+.judul{
+    justify-content: left;
+    font-weight: bold;
+}
+
+.profileDetail img {
+    border-radius: 50%;
     padding-left: 10px;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    font-size: 15px;
+    box-sizing: border-box;
+    margin-right: 10px;
+}
+
+.profileDetail {
+    display: flex;
+    justify-content :center;
+    align-items: center;
+    flex-wrap: wrap;
+    background-image: radial-gradient(circle at 0% 0%, #3fb4c4, #00517e, #646565);
+    color: white;
+    border-radius: 10px;
+    padding: 10px 2rem;
+    margin-bottom: 1rem;
 }
 
 .profil{
     display: flex;
-    height: 100px;
+    align-items: center;
+    height: 300px;
+    width: 600px;
+    color: white;
+    font-size: 18px;
     background-color: #00517e;
     border-radius: 10px;
-    flex-direction: column;
+    flex-direction: row;
+    justify-content: center;
 }
-.profil .nama{
-    font-size: 30px;
+
+.profil .logo{
+    border-radius: 50%;
 }
 
 .report{
