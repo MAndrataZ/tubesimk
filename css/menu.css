@@ -30,7 +30,7 @@
 
 /* **** Card Container **** */
 .cardContainer {
-    background: #fbf9f1 ;
+    background-image: radial-gradient(circle at 0% 0%, #3fb4c4, #00517e, #646565);
     padding: 2rem;
     margin: 1rem 1rem;
     border-radius: 10px;
@@ -43,13 +43,13 @@
 }
 
 .cardTitle {
-    color: #565e88 ;
+    color: white ;
     padding-bottom: 10px;
     font-size: 15px;
 }
 
-.laporanProduk {
-    background: #b3b3b3;
+.reportCard {
+    background: #fbf9f1;
     border-radius: 10px;
     padding: 1.2rem;
     width: 290px;
@@ -60,7 +60,7 @@
     transition: all 0.5s ease-in-out;
 }
 
-.laporanProduk:hover {
+.reportCard:hover {
     transform: translateY(-5px);
 }
 
@@ -71,7 +71,7 @@
     margin-bottom: 20px;
 }
 
-.produkTerlaku {
+.cardContent {
     display: flex;
     flex-direction: column;
 }
@@ -81,13 +81,78 @@
     font-weight: bold;
 }
 
-.namaProduk {
+.reportDetail {
     font-size: 24px;
     font-weight: bolder;
 }
 
-.detailProduk {
+.reportSum {
     font-size: 18px;
     color: grey;
     letter-spacing: 2px;
+}
+
+/* HISTORY CONTAINER */
+.historyContainer {
+    display: flex;
+    flex-wrap: wrap;
+    grid-gap: 24px;
+    margin-top: 24px;
+    width: 100%;   
+}
+
+.historyContainer > div {
+    border-radius: 10px;
+    background-color: #fbf9f1;
+    padding: 24px;
+    margin: 1rem 1rem;
+}
+
+.historyContainer .aktivitas {
+    flex-grow: 1;
+    flex-basis: 280px;
+}
+
+.historyContainer table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.historyContainer .head {
+    display: flex;
+    align-items: center;
+    grid-gap: 16px;
+    margin-bottom: 24px;
+}
+
+.historyContainer .head h3 {
+    margin-right: auto;
+    font-size: 24px;
+}
+
+
+.historyContainer .aktivitas table th {
+    padding-bottom: 12px;
+    font-size: 14px;
+    text-align: left;
+    border-bottom: 1px solid black;
+}
+
+.historyContainer .aktivitas table td {
+    padding: 16px 0;
+}
+
+.historyContainer .aktivitas table tr td:first-child {
+    display: flex;
+    align-items: center;
+    grid-gap: 12px;
+    padding-left: 6px ;
+}
+
+.historyContainer .aktivitas table td img {
+    object-fit: cover;
+}
+
+.historyContainer .aktivitas table tbody tr:hover {
+    background: #eaeaea;
 }
