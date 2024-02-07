@@ -25,8 +25,10 @@
 }
 
 .mainContent {
-    background-color: #fbf9f1;
+    background-image: radial-gradient(circle at 0% 0%, rgba(63, 180, 196, 0.5) 0%, rgba(0, 81, 126, 0.5) 50%, rgba(100, 101, 101, 0.5) 100%);
     flex-grow: 1;
+    position: relative;
+    width: 100%;
 }
 
 .sidebar .descriptionHeader {
