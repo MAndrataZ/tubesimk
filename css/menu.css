@@ -1,0 +1,51 @@
+.profileWrapper{
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+}
+
+.judul{
+    justify-content: left;
+    font-weight: bold;
+}
+
+.profileDetail img {
+    border-radius: 50%;
+    padding-left: 10px;
+    box-sizing: border-box;
+    margin-right: 10px;
+}
+
+.profileDetail {
+    display: flex;
+    justify-content :center;
+    align-items: center;
+    flex-wrap: wrap;
+    background-image: radial-gradient(circle at 0% 0%, #3fb4c4, #00517e, #646565);
+    color: white;
+    border-radius: 10px;
+    padding: 10px 2rem;
+    margin-bottom: 1rem;
+}
+
+.profil{
+    display: flex;
+    align-items: center;
+    height: 300px;
+    width: 600px;
+    color: white;
+    font-size: 18px;
+    background-color: #00517e;
+    border-radius: 10px;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.profil .logo{
+    border-radius: 50%;
+}
+
+.report{
+    padding-top: 20px;
+    background-color: rgb(49, 42, 42);
+}
