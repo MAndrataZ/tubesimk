@@ -38,6 +38,19 @@
 
 .cardWrapper {
     display: flex;
+    align-items: center;
+    height: 300px;
+    width: 600px;
+    color: white;
+    font-size: 18px;
+    background-color: #00517e;
+    border-radius: 10px;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.profil .logo{
+    border-radius: 50%;
     flex-wrap: wrap;
     gap: 1rem;
 }
