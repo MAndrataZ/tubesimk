@@ -1,0 +1,49 @@
+.profileMain {
+    padding: 100px;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.profileCard {
+    width: 800px;
+    height: 400px;
+    background-color: #fbf9f1;
+    margin: 0 auto;
+    padding-top: 20px;
+    border-radius: 10px;
+}
+
+hr {
+    height: 2px; /* Atur tinggi garis */
+    background-color: #000; /* Warna garis */
+    width: 50%; /* Atur lebar garis, bisa disesuaikan */
+    margin: 0 auto; /* Menengahkan garis */
+    background-color: #d1d2d6;
+}
+
+h2 {
+    font-weight: lighter;
+}
+
+h1 {
+    text-align: center;
+    margin: 0;
+    font-weight: bold;
+}
+
+.alamat{
+    text-align: center;
+    margin: 0;
+}
+
+p {
+    margin: 0 auto;
+    padding-top: 20px;
+    width: 450px;
+    height: auto;
+}
+
+.kontak img {
+    padding-top: 10px;
+    
+}

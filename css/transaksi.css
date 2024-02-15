@@ -1,0 +1,115 @@
+.transaksiContainer {
+
+}
+
+.transaksiTitle {
+    padding-top: 20px;
+    padding-left: 10px;
+    font-weight: bolder;
+}
+
+.transaksiTitle h1 {
+    display: inline-block;
+    border-bottom: 2px solid black;
+    padding-bottom: 5px;
+}
+
+.inputTransaksiWrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding-top: 50px;
+    font-size: 18px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+.inputGroup {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.inputLabel {
+    width: 150px;
+}
+
+.checkboxWrapper {
+    display: flex;
+    align-items: center;
+}
+
+.checkboxInput {
+    width: 20px;
+    height: 20px;
+    border-radius: 5px;
+    margin-right: 5px;
+}
+
+.checkboxLabel {
+    font-size: 18px;
+}
+
+.inputArea {
+    width: 200px;
+    height: 20px;
+    border-radius: 10px;
+    padding: 5px;
+    font-size: 14px;
+    font-weight: normal;
+    border: none;
+    outline: none;
+}
+
+.inputArea, .checkboxInput {
+    width: 200px;
+    height: 20px;
+    border-radius: 10px;
+    padding: 5px;
+    font-size: 18px;
+    font-weight: 600;
+    border: none;
+    outline: none;
+}
+
+.inputArea:focus {
+    border: 2px solid #565e88;
+}
+
+.inputUnit {
+    margin-left: 5px;
+}
+
+
+.placeholderText {
+    position: absolute;
+    right: 5px; /* Jarak dari tepi kanan container */
+    top: 50%; /* Posisi vertikal ditengah */
+    transform: translateY(-50%); /* Adjust posisi vertikal ke tepi atas */
+    font-size: 14px; /* Ukuran teks placeholder */
+    color: #aaa; /* Warna teks placeholder */
+}
+
+.buttonContainer {
+    margin-top: 100px; /* Jarak antara inputTransaksiWrapper dan tombol */
+    display: flex;
+    justify-content: flex-end; /* Mengatur agar tombol muncul di kanan */
+    margin-right: 300px; /* Memaksa tombol berada di ujung kanan */
+}
+
+.simpanButton {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #4c5270;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    width: 200px;
+}
+
+.simpanButton:hover {
+    background-color: #383c4d;
+}

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu Produksi</title>
+    <!-- Fonts Google-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
+
+    <!--css-->
+    <link rel="stylesheet" href= "css/transaksi.css">
+</head>
+<body>
+    <div class="transaksiContainer">
+        <div class="transaksiTitle">
+            <h1>TRANSAKSI</h1>
+        </div>
+
+        <div class="inputTransaksiWrapper">
+            <div class="inputGroup">
+                <label class="inputLabel" for="detailTanggal">Tanggal</label>
+                <input class="inputArea" type="date" id="detailTanggal">
+            </div>
+            <div class="inputGroup">
+                <label class="inputLabel" for="detailSKU">SKU</label>
+                <input class="inputArea" type="text" id="detailSKU">
+            </div>
+            <div class="inputGroup">
+                <label class="inputLabel" for="detailNamaProduk">Nama Produk</label>
+                <input class="inputArea" type="text" id="detailNamaProduk">
+            </div>
+            <div class="inputGroup">
+                <label class="inputLabel" for="detailRetail" id="retailL">Retail</label>
+                <input class="checkboxInput" type="checkbox" id="detailRetail">
+                <label class="inputLabel" for="detailReseller">Reseller</label>
+                <input class="checkboxInput" type="checkbox" id="detailReseller">
+            </div>
+            <div class="inputGroup">
+                <label class="inputLabel" for="detailHarga">Harga</label>
+                <input class="inputArea" type="number" id="detailHarga">
+            </div>
+            <div class="inputGroup">
+                <label class="inputLabel" for="detailJumlah">Jumlah</label>
+                <input class="inputArea" type="number" id="detailJumlah" placeholder="pcs">
+            </div>
+            <div class="inputGroup">
+                <label class="inputLabel" for="detailTotalHarga">Total Harga</label>
+                <input class="inputArea" type="number" id="detailTotalHarga">
+            </div>
+        </div>
+
+        <div class="buttonContainer">
+            <button class="simpanButton">Simpan</button>
+        </div>
+    </div>
+</body>
+</html>
