@@ -1,0 +1,86 @@
+.reportTitle {
+    padding-top: 20px;
+    padding-left: 10px;
+    font-weight: bolder;
+}
+
+.reportTitle h1 {
+    display: inline-block;
+    border-bottom: 2px solid black;
+    padding-bottom: 5px;
+}
+
+#dariTanggal ,#sampaiTanggal {
+    width: 200px;
+    height: 20px;
+    border-radius: 10px;
+    padding: 5px;
+    font-size: 14px;
+    font-weight: normal;
+    border: none;
+    outline: none;
+}
+
+.inputTanggalReport {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    padding-top: 50px;
+    font-size: 18px;
+    padding: 20px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+/* HISTORY CONTAINER */reportTable {
+    display: flex;
+    flex-wrap: wrap;
+    grid-gap: 24px;
+    margin-top: 24px;
+    width: 100%;   
+}
+.reportTable > div {
+    border-radius: 10px;
+    background-color: #fbf9f1;
+    padding: 24px;
+    margin: 1rem 1rem;
+}
+.reportTable .reportTitle {
+    flex-grow: 1;
+    flex-basis: 280px;
+}
+.reportTable table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.reportTable .head {
+    display: flex;
+    align-items: center;
+    grid-gap: 16px;
+    margin-bottom: 24px;
+}
+
+
+.reportTable .reportTitle table th {
+    padding-bottom: 12px;
+    font-size: 14px;
+    text-align: left;
+    border-bottom: 1px solid black;
+}
+.reportTable .reportTitle table td {
+    padding: 16px 0;
+}
+.reportTable .reportTitle table tr td:first-child {
+    display: flex;
+    align-items: center;
+    grid-gap: 12px;
+    padding-left: 6px ;
+}
+.reportTable .reportTitle table td img {
+    object-fit: cover;
+}
+.reportTable .reportTitle table tbody tr:hover {
+    background: #eaeaea;
+}

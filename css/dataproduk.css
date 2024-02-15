@@ -1,0 +1,64 @@
+*{
+    font-family: 'Poppins', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+.containerproduk{
+    display: flex;
+    flex-direction: column;
+}
+.judul{
+    padding-left: 30px;
+    padding-top: 30px;
+    font-size: 30px;
+}
+
+.search{
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 20px;
+    margin-right: 10px;
+}
+
+.search input{
+    width: 40%;
+    height: 30px;
+    border-radius: 20px;
+}
+
+.laporanbarang{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20px;
+}
+
+.laporanbarang table{
+    width: 100%;
+}
+
+.inputButtons{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 50px;
+    justify-content:last baseline;
+}
+
+#inputProduk{
+    background-color: #00517e;
+    padding: 15px;
+    border-radius: 5px;
+    color: whitesmoke;
+}
+
+#inputHargaProduk{
+    background-color: #00517e;
+    padding-left: 5px;
+    padding: 15px;
+    border-radius: 5px;
+    color: whitesmoke;
+}
+
+.containerInputProduk {
+    display: none; /* tambahkan ini untuk menyembunyikan container secara default */
+}
