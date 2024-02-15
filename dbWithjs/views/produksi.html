@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MZM APPS</title>
+    <!-- Fonts Google-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
+
+    <!--css-->
+    <link rel="stylesheet" href="css/dataproduk.css">
+
+</head>
+<body>
+    <div class="main1">
+        <div class="containerProduk">
+            <div class="judul">DATA <br>PRODUKSI <br>_____</div>
+            <div class="search">
+                <input type=text placeholder="  Cari di sini">
+            </div>       
+        </div>
+      <table class="table">
+          <thead>
+            <tr>
+              <th scope="col">SKU</th>
+              <th scope="col">Nama Produk</th>
+              <th scope="col">Satuan</th>
+              <th scope="col">Harga Satuan</th>
+              <th scope="col">Jumlah Produk</th>
+            </tr>
+          </thead>
+          <tbody>
+              <% for (let user of users) {%>
+                  <tr>
+                  <th scope="row"><%= user.sku %></th>
+                  <th scope="row"><%= user.namaproduk %></th>
+                  <th scope="row"><%= user.satuan %></th>
+                  <th scope="row"><%= user.hargasatuan %></th>
+                  <th scope="row"><%= user.jumlahproduk %></th>
+                  </tr>
+              <% } %>
+          </tbody>
+        </table>
+    </div>
+
+    <div class="inputButtons">
+        <button id="inputProduk">Input Produk</button>
+        <button id="inputHargaProduk">Input Harga Produk</button>
+    </div>
+
+    <div class="main2" style="display: none;">
+        <h1>menu input Produk</h1>
+        <h1>Menu</h1>
+        <button id="kembaliMenu1">Kembali ke Menu 1</button>
+    </div>
+
+    <div class="main3" style="display: none;">
+        <h1>menu input harga Produk</h1>
+        <h1>Menu</h1>
+        <button id="kembaliMenuProduk">Kembali ke Menu 1</button>
+    </div>
+
+   <script src="js/produk.js"></script>
+
+</body>
+</html>

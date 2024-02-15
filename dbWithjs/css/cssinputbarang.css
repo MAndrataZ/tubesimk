@@ -1,0 +1,85 @@
+*{
+    font-family: 'Poppins', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+.utama{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.judul{
+    display: flex;
+    justify-content: center;
+}
+
+h2{
+    font-size: 40px;
+    margin-top: 20px;
+}
+
+.badan{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.barang{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin: 0 10px;
+}
+
+.badan label{
+    margin: 20px 0 5px 0;
+}
+
+.badan input{
+    width: 400px;
+    height: 30px;
+    border-radius: 4px;
+}
+
+.satuan{
+    display: flex;
+    flex-direction: column;
+    padding: 20px 0 0 10px;
+}
+
+select{
+    display: flex;
+    margin: 10px 0;
+    width: 100px;
+    border-radius: 3px;
+}
+
+.tombol{
+    display: flex;
+    justify-content: flex-end;
+    padding: 0px 55px 100px 0px;
+
+}
+
+.tombol button{
+    padding: 8px;
+    width: 150px;
+    border-radius: 8px;
+    background-color: #00517e;
+    color: white;
+}
+
+.menulain{
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 50px;
+    text-decoration: none;
+}
+
+.menulain .pindah{
+    text-decoration: none;
+    color: black;
+}
